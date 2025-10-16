@@ -1,0 +1,3 @@
+Running Loginpage Fixture before using json
+Reading json file
+Running after test for JSON file

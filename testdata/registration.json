@@ -1,0 +1,24 @@
+[{
+
+    "name":"Akshay",
+    "email":"Akshay@gmail.com",
+    "password":"akshay@1234",
+    "interest":"Cypress",
+    "gender":"Male",
+    "state":"Goa",
+    "hobbies":["Playing","Reading","Dancing"]
+
+},
+
+{
+
+    "name":"Nitesh",
+    "email":"Nitesh@gmail.com",
+    "password":"Nitesh@1234",
+    "interest":"SQL",
+    "gender":"Male",
+    "state":"Karnataka",
+    "hobbies":["Playing","Reading"]
+
+}
+]

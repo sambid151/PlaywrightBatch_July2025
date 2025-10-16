@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - img "logo" [ref=e7] [cursor=pointer]
+        - heading "Learn Automation Courses" [level=1] [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - button "Cart" [ref=e10] [cursor=pointer]
+        - generic [ref=e12] [cursor=pointer]: Manage
+        - img "menu" [ref=e13] [cursor=pointer]
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - text: Learn Automation Courses
+            - img "delete" [ref=e16] [cursor=pointer]
+          - generic [ref=e17]:
+            - link "Home" [ref=e18] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19] [cursor=pointer]: Home
+            - link "Practise" [ref=e20] [cursor=pointer]:
+              - /url: /practise
+              - generic [ref=e21] [cursor=pointer]: Practise
+            - button "Sign out" [ref=e22] [cursor=pointer]
+  - generic [ref=e25]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Java For Tester" [level=2] [ref=e31]
+        - paragraph [ref=e32]: Java For Tester...
+      - generic [ref=e33]:
+        - img "instructor" [ref=e34]
+        - text: Mukesh Otwani
+      - generic [ref=e35]:
+        - img "clock" [ref=e36]
+        - generic [ref=e37]: "Start:"
+        - text: Mon Feb 17 2025
+      - generic [ref=e38]:
+        - img "clock" [ref=e39]
+        - generic [ref=e40]: "Finish:"
+        - text: Mon Mar 17 2025
+      - generic [ref=e41]:
+        - text: "Price:"
+        - generic [ref=e42]: ₹500
+      - button "Add to Cart right arrow" [ref=e43] [cursor=pointer]:
+        - text: Add to Cart
+        - img "right arrow" [ref=e44] [cursor=pointer]
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - heading "Selenium For Web Automation" [level=2] [ref=e50]
+        - paragraph [ref=e51]: Selenium For Web Automation...
+      - generic [ref=e52]:
+        - img "instructor" [ref=e53]
+        - text: Mukesh Otwani
+      - generic [ref=e54]:
+        - img "clock" [ref=e55]
+        - generic [ref=e56]: "Start:"
+        - text: Mon Feb 17 2025
+      - generic [ref=e57]:
+        - img "clock" [ref=e58]
+        - generic [ref=e59]: "Finish:"
+        - text: Mon Mar 17 2025
+      - generic [ref=e60]:
+        - text: "Price:"
+        - generic [ref=e61]: ₹1500
+      - button "Add to Cart right arrow" [ref=e62] [cursor=pointer]:
+        - text: Add to Cart
+        - img "right arrow" [ref=e63] [cursor=pointer]
+  - generic [ref=e65]:
+    - generic [ref=e66]:
+      - heading "Learn Automation By Mukesh Otwani" [level=3] [ref=e67]
+      - heading "©2023 All rights reserved" [level=2] [ref=e68]
+    - generic [ref=e69] [cursor=pointer]:
+      - link [ref=e70] [cursor=pointer]:
+        - /url: https://youtube.com/MukeshOtwani
+        - img [ref=e71] [cursor=pointer]
+      - link [ref=e74] [cursor=pointer]:
+        - /url: https://twitter.com/MukeshOtwani
+        - img [ref=e75] [cursor=pointer]
+      - link [ref=e77] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/mukesh-otwani-93631b99/
+        - img [ref=e78] [cursor=pointer]
+      - link [ref=e80] [cursor=pointer]:
+        - /url: https://www.facebook.com/groups/256655817858291
+        - img [ref=e81] [cursor=pointer]
+```

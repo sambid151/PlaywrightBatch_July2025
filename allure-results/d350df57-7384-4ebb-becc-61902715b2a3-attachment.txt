@@ -1,0 +1,4 @@
+passed
+Sample test for testinfo
+0
+passed

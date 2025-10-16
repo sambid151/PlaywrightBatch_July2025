@@ -1,0 +1,11 @@
+Running Loginpage Fixture before using json
+Reading json file
+Running New Course Fixture
+Reading json file
+Course Data from Fixture:  {
+  description: 'Sample Course For Playwright',
+  instructorname: 'Mukesh Otwani',
+  courseFees: '100'
+}
+Running after test for New Course JSON file
+Running after test for JSON file
