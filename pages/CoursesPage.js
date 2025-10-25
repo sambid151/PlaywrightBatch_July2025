@@ -26,7 +26,7 @@ export class CoursesPage extends BasePage
         // add locator for //div[normalize-space()='Select Category']
         this.selectCategoryDiv=page.locator("//div[normalize-space()='Select Category']") 
         // add locator for //button[normalize-space()='Cypress']  
-        this.cypressButton=page.locator("//button[normalize-space()='SQL']")
+        this.cypressButton=page.locator("//button[normalize-space()='Java']")
 
     }
 

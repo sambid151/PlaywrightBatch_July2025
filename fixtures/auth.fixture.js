@@ -77,15 +77,16 @@ export const test = base.extend(
         // get the current status of the test and if it is failed take the screenshot
         page:async({page},use,testInfo)=>
         {
-            await use(page)
-            // after use will get executed after every test
-            if(testInfo.status!=testInfo.expectedStatus)
-            {
-                const path = await page.screenshot({path:`screenshots/${testInfo.title}_${Date_now()}.png}`})
-                testInfo.attach('screenshot',{body:path,contentType:"image/png"})                
-           }
+                 await use(page)
+                // after use will get executed after every test
 
+                if(testInfo.status!=testInfo.expectedStatus)
+                {
+                  const path=await page.screenshot({path:`screenshots/${testInfo.title}_${Date.now()}.png`})
 
+                  await testInfo.attach('screenshot',{body:path,contentType:"image/png"})  
+
+                }
         }
 
     }

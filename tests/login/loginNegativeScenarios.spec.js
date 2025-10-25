@@ -54,7 +54,7 @@ test("Error message validation - Invalid username and Invalid password",async fu
 
     await loginPage.submit()
 
-    await expect(page.locator(".errorMessage")).toContainText("USER Email Doesn't Exist")
+    await expect(page.locator(".errorMessage")).toContainText("Email and Password Doesn't match")
     
 })
 
